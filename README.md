@@ -82,6 +82,7 @@ List of content
 	* [GreenPlum](https://github.com/greenplum-db/gpdb) The Greenplum Database (GPDB) is an advanced, fully featured, open source data warehouse. It provides powerful and rapid analytics on petabyte scale data volumes.
 	* [cayley](https://github.com/cayleygraph/cayley) An open-source graph database. Google.
 	* [Snappydata](https://github.com/SnappyDataInc/snappydata) SnappyData: OLTP + OLAP Database built on Apache Spark
+	* [TimescaleDB](https://www.timescale.com/): Built as an extension on top of PostgreSQL, TimescaleDB is a time-series SQL database providing fast analytics, scalability, with automated data management on a proven storage engine.
 
 # Data Ingestion
 * [Kafka](https://kafka.apache.org/) Publish-subscribe messaging rethought as a distributed commit log.
@@ -105,6 +106,7 @@ List of content
 * [Nakadi](https://nakadi.io) Nakadi is an open source event messaging platform that provides a REST API on top of Kafka-like queues.
 * [Pravega](http://www.pravega.io) Pravega provides a new storage abstraction - a stream - for continuous and unbounded data.
 * [Apache Pulsar](https://pulsar.apache.org/) Apache Pulsar is an open-source distributed pub-sub messaging system.
+* [AWS Data Wranlger](https://github.com/awslabs/aws-data-wrangler) Utility belt to handle data on AWS.
 
 # File System
 * [HDFS](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html)
@@ -141,6 +143,7 @@ multi-processor, multi-core machines
 * [Apache Storm](https://storm.apache.org) Apache Storm is a free and open source distributed realtime computation system
 * [Apache Samza](https://samza.apache.org) Apache Samza is a distributed stream processing framework
 * [Apache NiFi](https://nifi.apache.org/) is an easy to use, powerful, and reliable system to process and distribute data
+* [Apache Hudi](https://hudi.apache.org/) Apache Hudi is an open source framework for managing storage for real time processing, one of the most interesting feature is the Upsert
 * [VoltDB](https://voltdb.com/) VoltDb is an ACID-compliant RDBMS which uses a [shared nothing architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture).
 * [PipelineDB](https://github.com/pipelinedb/pipelinedb) The Streaming SQL Database
 * [Spring Cloud Dataflow](https://cloud.spring.io/spring-cloud-dataflow/) Streaming and tasks execution between Spring Boot apps
@@ -195,6 +198,7 @@ multi-processor, multi-core machines
 * [Azkaban](https://azkaban.github.io/) Azkaban is a batch workflow job scheduler created at LinkedIn to run Hadoop jobs. Azkaban resolves the ordering through job dependencies and provides an easy to use web user interface to maintain and track your workflows. 
 * [Oozie](https://oozie.apache.org/) Oozie is a workflow scheduler system to manage Apache Hadoop jobs
 * [Pinball](https://github.com/pinterest/pinball) DAG based workflow manager. Job flows are defined programmaticaly in Python. Support output passing between jobs.
+* [Dagster](https://github.com/dagster-io/dagster) Dagster is an open-source Python library for building data applications.
 
 # ELK Elastic Logstash Kibana
 * [docker-logstash](https://github.com/pblittle/docker-logstash) A highly configurable logstash (1.4.4) docker image running Elasticsearch (1.7.0) and Kibana (3.1.2).
